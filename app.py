@@ -1,10 +1,10 @@
 def login(password):
     if password == "admin123":
-        return True
+        return password == "admin123"
     return False
 
 
 def dashboard(password):
     if login(password):
-        return "Welcome"
+        return "Welcome to ChangeGuard"
     return "Access denied"
