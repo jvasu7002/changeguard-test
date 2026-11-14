@@ -24,7 +24,8 @@ def format_status(status):
     return status.upper()
 
 def calculate_total(price, quantity):
-    return price * quantity
+    discount = 10
+    return (price * quantity) - discount
 
 
 def generate_invoice(price, quantity):
