@@ -19,3 +19,6 @@ def user_profile(password):
     if login(password):
         return "User profile opened"
     return "Please login first"
+
+def format_status(status):
+    return status.upper()
