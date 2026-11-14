@@ -1,8 +1,7 @@
 def login(password):
-    if password == "admin123":
+    if password == "newpassword123":
         return True
     return False
-
 
 def dashboard(password):
     if login(password):
