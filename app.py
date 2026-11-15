@@ -46,3 +46,12 @@ def save_invoice(price, quantity):
 def print_invoice(price, quantity):
     total = calculate_total(price, quantity)
     return f"Invoice printed: {total}"
+
+def export_invoice(price, quantity):
+    total = calculate_total(price, quantity)
+    return f"Exported: {total}"
+
+
+def audit_invoice(price, quantity):
+    total = calculate_total(price, quantity)
+    return f"Audited: {total}"
