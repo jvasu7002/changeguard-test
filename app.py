@@ -24,10 +24,9 @@ def format_status(status):
     return status.upper()
 
 def calculate_total(price, quantity):
-    discount = 20
-    tax = 5
+    discount = 25
+    tax = 10
     return (price * quantity) - discount + tax
-
 
 def generate_invoice(price, quantity):
     total = calculate_total(price, quantity)
