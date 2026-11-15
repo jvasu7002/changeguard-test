@@ -31,3 +31,17 @@ def calculate_total(price, quantity):
 def generate_invoice(price, quantity):
     total = calculate_total(price, quantity)
     return f"Invoice Total: {total}"
+
+def send_invoice_email(price, quantity):
+    total = calculate_total(price, quantity)
+    return f"Email sent with total: {total}"
+
+
+def save_invoice(price, quantity):
+    total = calculate_total(price, quantity)
+    return f"Invoice saved: {total}"
+
+
+def print_invoice(price, quantity):
+    total = calculate_total(price, quantity)
+    return f"Invoice printed: {total}"
